@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.helloworld.db.DatabaseActivity;
+
 public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     private TextView mShowCount;
@@ -93,5 +95,9 @@ public class MainActivity extends AppCompatActivity {
     public void goToApis(View view) {
 
         startActivity(new Intent(this, ApiActivity.class));
+    }
+
+    public void useDatabase(View view) {
+        startActivity(new Intent(this, DatabaseActivity.class));
     }
 }
