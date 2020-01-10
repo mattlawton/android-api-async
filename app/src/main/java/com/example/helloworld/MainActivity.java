@@ -41,10 +41,6 @@ public class MainActivity extends AppCompatActivity {
     public void countUp(View view) {
         mCount++;
 
-        Toast toast = Toast.makeText(this, R.string.toast_message,
-                Toast.LENGTH_SHORT);
-        toast.show();
-
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
@@ -79,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startTask(View view) {
+
+        Toast toast = Toast.makeText(this, R.string.toast_message,
+                Toast.LENGTH_SHORT);
+        toast.show();
 
         mAsyncTextView.setText(R.string.not_doing_async_text);
         new SimpleAsyncTask(mAsyncTextView).execute();

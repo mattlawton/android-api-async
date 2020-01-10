@@ -19,7 +19,7 @@ public class SimpleAsyncTask extends AsyncTask<Void, Void, String> {
         Random r = new Random();
         int n = r.nextInt(11);
 
-        int s = n * 200;
+        int s = n * 400;
         try{
             Thread.sleep(s);
         } catch(InterruptedException e) {

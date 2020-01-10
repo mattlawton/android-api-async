@@ -3,7 +3,7 @@
     <string name="button_label_toast">Toast</string>
     <string name="button_label_count">Count</string>
     <string name="count_init_value">0</string>
-    <string name="toast_message">Adding a new number</string>
+    <string name="toast_message">Starting thread</string>
     <string name="MainButtonText">Next page</string>
     <string name="activity2_name">Second Activity</string>
     <string name="second_title">Second Page</string>
@@ -20,8 +20,14 @@
 
     <string name="no_results">"No Results Found"</string>
     <string name="loading">Searching!</string>
+    <string name="action_settings">Settings</string>
 
     <string name="no_search_term">Please enter a search term</string>
     <string name="no_network">Please check your network connection and try again.</string>
+
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="title_activity_database">DatabaseActivity</string>
 
 </resources>
